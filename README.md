@@ -1,6 +1,9 @@
 # BinaryVeda-Assignment
 
-NOTE- I am using Thunder Client (VS Code Extension) for making GET and POST Requests
+NOTE- 
+  i) I am using Thunder Client (VS Code Extension) for making GET and POST Requests
+  ii) The API url should be opened on your browser and requests should be made from Postman or any other platform.
+  
 
 # Register API
 https://fair-plum-worm-cuff.cyclic.app/register
@@ -11,10 +14,14 @@ It accepts all of the following payloads:-
 "name": <ENTER NAME HERE>
 "age": <ENTER AGE HERE>
 "email": <ENTER EMAIL HERE>
-"phone": <ENTER PHONE NUMBER HERE>
+"phone": <ENTER TEST PHONE NUMBER HERE>
 "password": <ENTER PASSWORD HERE>
 
 *Enter information without angular brackets
+
+Initial DataBase Content:-
+![image](https://user-images.githubusercontent.com/69675094/209470265-c1feb2e0-ac80-478e-91d2-5a2be2cea7d5.png)
+
 
 METHOD- POST
 
@@ -29,6 +36,10 @@ INPUT-
 
 OUTPUT- 
 Sign Up Successful!
+
+DataBase Content after above request:-
+![image](https://user-images.githubusercontent.com/69675094/209470256-19dad1af-bbda-4250-8025-af3645f93927.png)
+
 
 IMAGE-
 ![image](https://user-images.githubusercontent.com/69675094/209469842-9174a79a-4d3f-4823-b008-9b7bc6d27c86.png)
