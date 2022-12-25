@@ -13,6 +13,8 @@ const validator = require('email-validator');
 const {initializingPassport, isAuthenticated } = require('./passportConfig');
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
+const server = app.listen(8080);
+server.keepAliveTimeout = 61 * 1000;
 require('dotenv').config();
 
 const port = process.env.PORT;
