@@ -11,13 +11,13 @@ https://fair-plum-worm-cuff.cyclic.app/register
 Objective- To register a new user by using above API in our MongoDB Atlas DataBase.
 
 It accepts all of the following payloads:-
-"name": <ENTER NAME HERE>
-"age": <ENTER AGE HERE>
-"email": <ENTER EMAIL HERE>
-"phone": <ENTER TEST PHONE NUMBER HERE>
-"password": <ENTER PASSWORD HERE>
+"name": [ENTER NAME HERE]
+"age": [ENTER AGE HERE]
+"email": [ENTER EMAIL HERE]
+"phone": [ENTER TEST PHONE NUMBER HERE]
+"password": [ENTER PASSWORD HERE]
 
-*Enter information without angular brackets
+*Enter information without brackets
 
 Initial DataBase Content:-
 ![image](https://user-images.githubusercontent.com/69675094/209470265-c1feb2e0-ac80-478e-91d2-5a2be2cea7d5.png)
@@ -50,10 +50,10 @@ https://fair-plum-worm-cuff.cyclic.app/login
 Objective- To allow the user to log-into our application
 
 It accepts all of the following payloads:-
-"email": <ENTER EMAIL HERE>
-"password": <ENTER PASSWORD HERE>
+"email": [ENTER EMAIL HERE]
+"password": [ENTER PASSWORD HERE]
 
-*Enter information without angular brackets
+*Enter information without brackets
 
 METHOD- POST
 
